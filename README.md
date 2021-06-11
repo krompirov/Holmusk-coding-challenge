@@ -1,1 +1,1 @@
-# Holmusk-codinghallenge
+# Holmusk-coding challenge
