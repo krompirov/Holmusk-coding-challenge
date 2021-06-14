@@ -1,0 +1,176 @@
+# Metadata for Consumer Price Index, Monthly
+---
+Identifier: '20d0395c-e6a5-4aba-9e1a-02b78fdefdab'
+Name: 'consumer-price-index-monthly'
+Title: 'Consumer Price Index, Monthly'
+Description: 'The CPI is designed to measure the average price changes in a fixed
+  basket of consumption goods and services commonly purchased by the resident households
+  over time. It is widely used as a measure of the consumer price inflation. The Base
+  Year is 2019.'
+Topics:
+  - 'Economy'
+Keywords:
+  - 'consumer price index'
+  - 'cpi'
+  - 'inflation'
+  - 'price index'
+Publisher:
+  Name: 'Ministry of Trade and Industry - Department of Statistics'
+  Admin 1:
+    Name: 'Singstat info'
+    Department: 'Statistics Information Services'
+    Email: 'info@singstat.gov.sg'
+Sources:
+  - 'Ministry of Trade and Industry - Department of Statistics'
+Source Url: 'https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=16854&exportType=tidy'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Monthly'
+Coverage: '1961-01-01 to 2020-12-31'
+Last Updated: '2021-05-07T00:54:36.121663'
+Resources:
+  -
+    Identifier: 'bf8bfcb3-efbd-4d76-bc69-7336f4443f93'
+    Title: 'Consumer Price Index, 2019 as Base Year, Monthly'
+    Url: 'https://storage.data.gov.sg/consumer-price-index-monthly/resources/consumer-price-index-2019-as-base-year-monthly-2021-01-25T17-50-23Z.csv'
+    Format: 'CSV'
+    Coverage: '1961-01-01 to 2020-12-31'
+    Description: 'The CPI covers only consumption expenditure incurred by resident
+      households. Non-consumption expenditures such as loan repayments, income tax,
+      purchase of houses, shares and other financial assets are excluded.'
+    Last Updated: '2021-01-25T17:50:23.929196'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'level_1'
+        Title: 'All Items'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'value'
+        Title: 'Index'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Index'
+        Description: '"na" : Not available or not applicable'
+  -
+    Identifier: '8910f829-5cd4-4425-9542-dc95320aafeb'
+    Title: 'Consumer Price Index at Expenditure Division Level, 2019 as Base Year,
+      Monthly'
+    Url: 'https://storage.data.gov.sg/consumer-price-index-monthly/resources/consumer-price-index-at-expenditure-division-level-2019-as-base-year-monthly-2021-01-25T17-51-28Z.csv'
+    Format: 'CSV'
+    Coverage: '1961-01-01 to 2020-11-30'
+    Last Updated: '2021-01-25T17:51:28.164670'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'level_1'
+        Title: 'All Items'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'level_2'
+        Title: 'Expenditure Division'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'value'
+        Title: 'Index'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Index'
+        Description: '"na" : Not available or not applicable'
+  -
+    Identifier: '2c80e106-0233-4f3b-8efc-28500c48a8ae'
+    Title: 'Consumer Price Index at Expenditure Group Level, 2019 as Base Year, Monthly'
+    Url: 'https://storage.data.gov.sg/consumer-price-index-monthly/resources/consumer-price-index-at-expenditure-group-level-2019-as-base-year-monthly-2021-05-04T00-49-02Z.csv'
+    Format: 'CSV'
+    Coverage: '1961-01-01 to 2020-11-30'
+    Description: 'Some services were unavailable (either fully or partially) in selected
+      months of 2020 and 2021 due to international and safe-distancing measures to
+      contain the COVID-19 pandemic. As such, more prices in the affected months were
+      imputed, in line with international guidelines.'
+    Last Updated: '2021-05-04T00:49:02.879604'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'level_1'
+        Title: 'All Items'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'level_2'
+        Title: 'Expenditure Division'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'level_3'
+        Title: 'Expenditure Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'value'
+        Title: 'Index'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Index'
+        Description: '"na" : Not available or not applicable'
+  -
+    Identifier: 'c40690bb-d652-48bf-b812-d367521cc9f1'
+    Title: 'Consumer Price Index at Expenditure Class Level, 2019 as Base Year, Monthly'
+    Url: 'https://storage.data.gov.sg/consumer-price-index-monthly/resources/consumer-price-index-at-expenditure-class-level-2019-as-base-year-monthly-2021-05-04T00-50-26Z.csv'
+    Format: 'CSV'
+    Coverage: '1961-01-01 to 2020-11-30'
+    Description: 'Some services were unavailable (either fully or partially) in selected
+      months of 2020 and 2021 due to international and safe-distancing measures to
+      contain the COVID-19 pandemic. As such, more prices in the affected months were
+      imputed, in line with international guidelines.'
+    Last Updated: '2021-05-04T00:50:26.361875'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'level_1'
+        Title: 'All Items'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'level_2'
+        Title: 'Expenditure Division'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'level_3'
+        Title: 'Expenditure Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'level_4'
+        Title: 'Expenditure Class'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'value'
+        Title: 'Index'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Index'
+        Description: '"na" : Not available or not applicable'
